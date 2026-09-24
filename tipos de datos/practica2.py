@@ -1,2 +1,2 @@
-SET variable= Hola mundo!
-print("Hola Mundo!")
+variable= "Hola mundo!"
+print(variable)
