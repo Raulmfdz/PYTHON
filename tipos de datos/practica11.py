@@ -1,0 +1,5 @@
+DineroDepositado = float(input("Ingrese la cantidad de dinero depositado: "))
+InteresAnual = float(input("Ingrese el interés anual: "))
+print(f"Despues del primer año en la cuenta abrá: {DineroDepositado * (1 + (InteresAnual / 100))}")
+print(f"Despues del segundo año en la cuenta abrá: {DineroDepositado * (1 + (InteresAnual / 100)) ** 2}")
+print(f"Despues del tercer año en la cuenta abrá: {DineroDepositado * (1 + (InteresAnual / 100)) ** 3}")
