@@ -1,2 +1,2 @@
 frase = input("Introduce la frase que tu quieras:")
-print(frase[::-1])
+print(f"frase del reves: {frase[::-1]}")
