@@ -1,0 +1,6 @@
+fechaNacimiento = input("Escribe tu fecha de nacimiento en este formato dd/mm/aaaa:")
+fechaNacimiento2 = input("Escribe tu fecha de nacimiento en este formato dd.mm:")
+fechaNacimientoDistribuida = fechaNacimiento.split("/")
+fechaNacimientoDistribuida2 = fechaNacimiento2.split(".")
+print (f"Naciste el dia {fechaNacimientoDistribuida[0]} en el mes {fechaNacimientoDistribuida[1]} y en el año {fechaNacimientoDistribuida[2]}") 
+print (f"Naciste el dia {fechaNacimientoDistribuida2[0]} en el mes {fechaNacimientoDistribuida2[1]}") 
