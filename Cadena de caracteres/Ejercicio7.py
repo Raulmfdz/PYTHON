@@ -1,3 +1,3 @@
 gmail = input("Introduce tu gmail:")
-gmailModificado = gmail.replace('@gmail.com','@ceu.es')
-print (gmailModificado)
+gmailModificado = gmail.split('@')
+print (f"{gmailModificado[0]}@ceu.es")
