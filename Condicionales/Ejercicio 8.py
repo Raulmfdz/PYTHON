@@ -6,6 +6,6 @@ if puntuacion == 0.0:
 elif puntuacion == 0.4:
     print("El usuario", nombre, "ha recibido una puntuación de", puntuacion, "y va a cobrar 4.800 euros.")
 elif puntuacion >= 0.6:
-    print("El usuario", nombre, "ha recibido una puntuación de", puntuacion, "y va a cobrar 7.000 euros.")
+    print("El usuario", nombre, "ha recibido una puntuación de", puntuacion, "y va a cobrar 7.200 euros.")
 else:
     print("Error: Puntuación no válida")
